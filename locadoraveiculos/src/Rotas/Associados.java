@@ -29,6 +29,13 @@ public class Associados {
     }
   }
 
+  
+  /** 
+   * @param nome
+   * @param telefone
+   * @param email
+   * @param cpf
+   */
   // Criar novo Associado
   public void criarAssociado(String nome, String telefone, String email, String cpf) {
     try {
@@ -48,6 +55,14 @@ public class Associados {
     }
   }
 
+  
+  /** 
+   * @param id
+   * @param nome
+   * @param telefone
+   * @param email
+   * @param cpf
+   */
   // Atualizar Associado no BD
   public void atualizarAssociado(int id, String nome, String telefone, String email, String cpf) {
     try {
@@ -68,6 +83,10 @@ public class Associados {
     }
   }
 
+  
+  /** 
+   * @param id
+   */
   // Deletar um associado
   public void deletarAssociado(int id) {
     try {

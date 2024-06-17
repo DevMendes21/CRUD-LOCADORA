@@ -1,0 +1,20 @@
+==== CONFIGS ====		
+{
+    "base_path": "c:\\Users\\ygmen\\Documents\\GitHub\\CRUD-LOCADORA\\locadoraveiculos\\src",
+    "out": "c:\\Users\\ygmen\\Documents\\GitHub\\CRUD-LOCADORA\\locadoraveiculos\\src\\javadoc",
+    "javadoc_executable": "C:\\Program Files\\Java\\jdk-22\\bin\\javadoc.exe",
+    "exclude": [],
+    "raw_params": ""
+}
+
+==== COMMAND ====
+"C:\Program Files\Java\jdk-22\bin\javadoc.exe" 
+	-sourcepath "c:\Users\ygmen\Documents\GitHub\CRUD-LOCADORA\locadoraveiculos\src" 
+	-d "c:\Users\ygmen\Documents\GitHub\CRUD-LOCADORA\locadoraveiculos\src\javadoc" 
+	"c:\Users\ygmen\Documents\GitHub\CRUD-LOCADORA\locadoraveiculos\src\BancoDeDados\DbConfig.java"
+	"c:\Users\ygmen\Documents\GitHub\CRUD-LOCADORA\locadoraveiculos\src\Main\Main.java"
+	"c:\Users\ygmen\Documents\GitHub\CRUD-LOCADORA\locadoraveiculos\src\Rotas\Associados.java"
+	"c:\Users\ygmen\Documents\GitHub\CRUD-LOCADORA\locadoraveiculos\src\Rotas\TabelaPrecos.java"
+	"c:\Users\ygmen\Documents\GitHub\CRUD-LOCADORA\locadoraveiculos\src\Rotas\Veiculos.java"
+
+

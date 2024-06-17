@@ -31,6 +31,17 @@ public class Veiculos {
     }
   }
 
+  
+  /** 
+   * @param marca
+   * @param modelo
+   * @param ano
+   * @param placa
+   * @param disponivel
+   * @param categoria
+   * @param url_veiculo
+   * @param preco
+   */
   // Método para criar um novo veículo
   public void criarVeiculo(String marca, String modelo, int ano, String placa, boolean disponivel, String categoria, String url_veiculo, double preco) {
     try {
@@ -54,6 +65,18 @@ public class Veiculos {
     }
 }
 
+
+/** 
+ * @param id
+ * @param marca
+ * @param modelo
+ * @param ano
+ * @param placa
+ * @param disponivel
+ * @param categoria
+ * @param url_veiculo
+ * @param preco
+ */
 // Método para atualizar um veículo existente
 public void atualizarVeiculo(int id, String marca, String modelo, int ano, String placa, boolean disponivel, String categoria, String url_veiculo, double preco) {
   try {
@@ -78,6 +101,10 @@ public void atualizarVeiculo(int id, String marca, String modelo, int ano, Strin
   }
 }
 
+  
+  /** 
+   * @param id
+   */
   // Método para deletar um veículo
   public void deletarVeiculo(int id) {
     try {

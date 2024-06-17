@@ -24,6 +24,10 @@ import java.util.Scanner; // Entrada de dados pelo usuário via console.
 /*============================================ Menu Principal ============================================*/
 
 public class Main {
+  
+  /** 
+   * @param args
+   */
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in); // Cria um objeto Scanner para ler a entrada do usuário.
     while (true) { // Loop infinito para exibir o menu principal até o usuário escolher sair.
@@ -56,6 +60,10 @@ public class Main {
     }
   }
 
+
+/** 
+ * @param scanner
+ */
 /*============================================ Menu Associados ============================================*/
 
   // Exibir o menu de associados
@@ -120,6 +128,10 @@ public class Main {
     }
   }
 
+
+/** 
+ * @param scanner
+ */
 /*============================================ Menu Veiculos ============================================*/
 
   // Método para exibir o menu de veículos
@@ -207,6 +219,10 @@ public class Main {
   }
     
 
+  
+  /** 
+   * @param scanner
+   */
   /*============================================ Menu Tabela Preços ============================================*/
 
   // Método para exibir o menu da tabela de preços

@@ -11,6 +11,11 @@ public class DbConfig {
   private static final String user = "root"; // "Login para o banco (Usuario)"
   private static final String password = "Ya@1456789"; // "Login para o banco (Senha)"
 
+  
+  /** 
+   * @return Connection
+   * @throws SQLException
+   */
   public static Connection getConnection() throws SQLException{
     return DriverManager.getConnection(url, user, password);
   }

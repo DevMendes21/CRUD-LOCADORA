@@ -25,6 +25,11 @@ public class TabelaPrecos {
     }
   }
 
+  
+  /** 
+   * @param categoria
+   * @param preco_por_dia
+   */
   // Método para criar um novo preço
   public void criarPreco(String categoria, double preco_por_dia) {
     try {
@@ -42,6 +47,12 @@ public class TabelaPrecos {
     }
   }
 
+  
+  /** 
+   * @param id
+   * @param categoria
+   * @param preco_por_dia
+   */
   // Método para atualizar um preço existente
   public void atualizarPreco(int id, String categoria, double preco_por_dia) {
     try {
@@ -60,6 +71,10 @@ public class TabelaPrecos {
     }
   }
 
+  
+  /** 
+   * @param id
+   */
   // Método para deletar um preço
   public void deletarPreco(int id) {
     try {
